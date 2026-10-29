@@ -8,19 +8,16 @@ app_license = "mit"
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["erpnext"]
 
-# Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "uae_real_estate",
-# 		"logo": "/assets/uae_real_estate/logo.png",
-# 		"title": "UAE Real Estate",
-# 		"route": "/uae_real_estate",
-# 		"has_permission": "uae_real_estate.api.permission.has_app_permission"
-# 	}
-# ]
-
+fixtures = [
+    {"dt": "Custom Field", "filters": [["dt", "=", "Payment Entry"], ["fieldname", "in", ["re_booking", "re_booking_row"]]]},
+    {"dt": "Number Card", "filters": [["module", "=", "UAE Real Estate"]]},
+    {"dt": "Dashboard Chart", "filters": [["module", "=", "UAE Real Estate"]]},
+    {"dt": "Dashboard", "filters": [["module", "=", "UAE Real Estate"]]},
+    {"dt": "Workspace", "filters": [["module", "=", "UAE Real Estate"]]},
+    {"dt": "RE Payment Plan Template"},
+]
 # Includes in <head>
 # ------------------
 
@@ -137,13 +134,12 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+    "Payment Entry": {
+        "on_submit": "uae_real_estate.payments.update_booking_payment",
+        "on_cancel": "uae_real_estate.payments.update_booking_payment",
+    }
+}
 
 # Scheduled Tasks
 # ---------------

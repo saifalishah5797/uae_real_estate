@@ -1,0 +1,189 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{tower}-{unit_no}",
+ "creation": "2026-10-28 15:24:16.896892",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "unit_no",
+  "project",
+  "tower",
+  "floor",
+  "unit_type",
+  "facing",
+  "status",
+  "area_section",
+  "carpet_area",
+  "builtup_area",
+  "super_builtup_area",
+  "price_section",
+  "base_rate",
+  "floor_rise",
+  "plc",
+  "parking_charges",
+  "total_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "unit_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Unit No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "RE Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tower",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Tower",
+   "options": "RE Tower",
+   "reqd": 1
+  },
+  {
+   "fieldname": "floor",
+   "fieldtype": "Int",
+   "label": "Floor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "unit_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Unit Type",
+   "options": "Studio\n1BR\n2BR\n3BR\n4BR\nPenthouse\nShop\nOffice"
+  },
+  {
+   "fieldname": "facing",
+   "fieldtype": "Select",
+   "label": "Facing / View",
+   "options": "\nNorth\nSouth\nEast\nWest\nSea View\nCity View\nGarden View"
+  },
+  {
+   "default": "Available",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Available\nHold\nBooked\nSold"
+  },
+  {
+   "fieldname": "area_section",
+   "fieldtype": "Section Break",
+   "label": "Area (sq ft)"
+  },
+  {
+   "fieldname": "carpet_area",
+   "fieldtype": "Float",
+   "label": "Carpet Area"
+  },
+  {
+   "fieldname": "builtup_area",
+   "fieldtype": "Float",
+   "label": "Built-up Area"
+  },
+  {
+   "fieldname": "super_builtup_area",
+   "fieldtype": "Float",
+   "label": "Saleable / Super Built-up Area",
+   "reqd": 1
+  },
+  {
+   "fieldname": "price_section",
+   "fieldtype": "Section Break",
+   "label": "Pricing"
+  },
+  {
+   "fieldname": "base_rate",
+   "fieldtype": "Currency",
+   "label": "Base Rate per sq ft",
+   "reqd": 1
+  },
+  {
+   "fieldname": "floor_rise",
+   "fieldtype": "Currency",
+   "label": "Floor Rise Charge"
+  },
+  {
+   "fieldname": "plc",
+   "fieldtype": "Currency",
+   "label": "Preferred Location Charge (PLC)"
+  },
+  {
+   "fieldname": "parking_charges",
+   "fieldtype": "Currency",
+   "label": "Parking Charges"
+  },
+  {
+   "fieldname": "total_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Price",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-28 15:24:16.896892",
+ "modified_by": "Administrator",
+ "module": "UAE Real Estate",
+ "name": "RE Unit",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "unit_no",
+ "track_changes": 1
+}

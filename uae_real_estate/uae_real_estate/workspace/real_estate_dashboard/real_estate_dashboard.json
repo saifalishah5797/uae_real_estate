@@ -1,0 +1,108 @@
+{
+ "charts": [
+  {
+   "chart_name": "Units by Status",
+   "label": "Units by Status"
+  },
+  {
+   "chart_name": "Sales by Project",
+   "label": "Sales by Project"
+  },
+  {
+   "chart_name": "Outstanding by Project",
+   "label": "Outstanding by Project"
+  },
+  {
+   "chart_name": "Bookings by Payment Plan",
+   "label": "Bookings by Payment Plan"
+  },
+  {
+   "chart_name": "Monthly Bookings",
+   "label": "Monthly Bookings"
+  }
+ ],
+ "content": "[{\"id\": \"36999e8fd5\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Real Estate Overview</b></span>\", \"col\": 12}}, {\"id\": \"793faeadd6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Command Center\", \"col\": 3}}, {\"id\": \"aa5f8c9a96\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Units\", \"col\": 3}}, {\"id\": \"31c724b074\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Available Units\", \"col\": 3}}, {\"id\": \"f21c70ae82\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Booked Units\", \"col\": 3}}, {\"id\": \"e382f1ea29\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Bookings\", \"col\": 3}}, {\"id\": \"81d51ad671\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Sales Value\", \"col\": 3}}, {\"id\": \"8c48802c57\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Collected\", \"col\": 3}}, {\"id\": \"a9a8fb1ee0\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Outstanding\", \"col\": 3}}, {\"id\": \"f73d6368b1\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Units by Status\", \"col\": 6}}, {\"id\": \"d4648c4d0f\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Sales by Project\", \"col\": 6}}, {\"id\": \"394575042a\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Outstanding by Project\", \"col\": 6}}, {\"id\": \"da5ffd8d8f\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Bookings by Payment Plan\", \"col\": 6}}, {\"id\": \"8042a36a47\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Monthly Bookings\", \"col\": 6}}, {\"id\": \"9ad2b92c34\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Quick Access</b></span>\", \"col\": 12}}, {\"id\": \"d62ab18bef\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Units\", \"col\": 3}}, {\"id\": \"255b48c1b3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Bookings\", \"col\": 3}}, {\"id\": \"4313f683cf\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Projects\", \"col\": 3}}, {\"id\": \"7ed46bb134\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Payment Plans\", \"col\": 3}}]",
+ "creation": "2026-10-29 11:52:53.553039",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "building",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Real Estate Dashboard",
+ "links": [],
+ "modified": "2026-10-29 12:02:29.585278",
+ "modified_by": "Administrator",
+ "module": "UAE Real Estate",
+ "name": "Real Estate Dashboard",
+ "number_cards": [
+  {
+   "label": "Total Units",
+   "number_card_name": "Total Units"
+  },
+  {
+   "label": "Available Units",
+   "number_card_name": "Available Units"
+  },
+  {
+   "label": "Booked Units",
+   "number_card_name": "Booked Units"
+  },
+  {
+   "label": "Active Bookings",
+   "number_card_name": "Active Bookings"
+  },
+  {
+   "label": "Sales Value",
+   "number_card_name": "Sales Value"
+  },
+  {
+   "label": "Total Collected",
+   "number_card_name": "Total Collected"
+  },
+  {
+   "label": "Total Outstanding",
+   "number_card_name": "Total Outstanding"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 0.0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Units",
+   "link_to": "RE Unit",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Bookings",
+   "link_to": "RE Booking",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Projects",
+   "link_to": "RE Project",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Payment Plans",
+   "link_to": "RE Payment Plan Template",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Command Center",
+   "link_to": "re-dashboard",
+   "type": "Page"
+  }
+ ],
+ "title": "Real Estate Dashboard"
+}

@@ -1,0 +1,32 @@
+{
+ "content": null,
+ "creation": "2026-10-29 12:02:29.193308",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2026-10-29 12:02:29.193308",
+ "modified_by": "Administrator",
+ "module": "UAE Real Estate",
+ "name": "re-dashboard",
+ "owner": "Administrator",
+ "page_name": "re-dashboard",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Sales Manager"
+  },
+  {
+   "role": "Sales User"
+  },
+  {
+   "role": "Accounts User"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Real Estate Command Center"
+}

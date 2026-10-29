@@ -1,0 +1,104 @@
+[
+ {
+  "description": "10% on booking, 20% after 30 days, 30% after 90 days, 40% on handover (365 days)",
+  "docstatus": 0,
+  "doctype": "RE Payment Plan Template",
+  "items": [
+   {
+    "due_after_days": 0,
+    "milestone": "On Booking",
+    "parent": "10-20-30-40 Plan",
+    "parentfield": "items",
+    "parenttype": "RE Payment Plan Template",
+    "percentage": 10.0
+   },
+   {
+    "due_after_days": 30,
+    "milestone": "First Installment",
+    "parent": "10-20-30-40 Plan",
+    "parentfield": "items",
+    "parenttype": "RE Payment Plan Template",
+    "percentage": 20.0
+   },
+   {
+    "due_after_days": 90,
+    "milestone": "Second Installment",
+    "parent": "10-20-30-40 Plan",
+    "parentfield": "items",
+    "parenttype": "RE Payment Plan Template",
+    "percentage": 30.0
+   },
+   {
+    "due_after_days": 365,
+    "milestone": "On Handover",
+    "parent": "10-20-30-40 Plan",
+    "parentfield": "items",
+    "parenttype": "RE Payment Plan Template",
+    "percentage": 40.0
+   }
+  ],
+  "modified": "2026-10-29 10:31:02.501800",
+  "name": "10-20-30-40 Plan",
+  "plan_name": "10-20-30-40 Plan"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "RE Payment Plan Template",
+  "items": [
+   {
+    "due_after_days": 0,
+    "milestone": "On Booking",
+    "parent": "20-80 Plan",
+    "parentfield": "items",
+    "parenttype": "RE Payment Plan Template",
+    "percentage": 20.0
+   },
+   {
+    "due_after_days": 365,
+    "milestone": "On Handover",
+    "parent": "20-80 Plan",
+    "parentfield": "items",
+    "parenttype": "RE Payment Plan Template",
+    "percentage": 80.0
+   }
+  ],
+  "modified": "2026-10-29 11:41:15.476365",
+  "name": "20-80 Plan",
+  "plan_name": "20-80 Plan"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "RE Payment Plan Template",
+  "items": [
+   {
+    "due_after_days": 0,
+    "milestone": "On Booking",
+    "parent": "40-30-30 Plan",
+    "parentfield": "items",
+    "parenttype": "RE Payment Plan Template",
+    "percentage": 40.0
+   },
+   {
+    "due_after_days": 180,
+    "milestone": "Mid Construction",
+    "parent": "40-30-30 Plan",
+    "parentfield": "items",
+    "parenttype": "RE Payment Plan Template",
+    "percentage": 30.0
+   },
+   {
+    "due_after_days": 540,
+    "milestone": "On Handover",
+    "parent": "40-30-30 Plan",
+    "parentfield": "items",
+    "parenttype": "RE Payment Plan Template",
+    "percentage": 30.0
+   }
+  ],
+  "modified": "2026-10-29 11:41:15.793436",
+  "name": "40-30-30 Plan",
+  "plan_name": "40-30-30 Plan"
+ }
+]
